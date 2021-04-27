@@ -6,6 +6,6 @@ function compute()
     y = document.getElementById("years").value;
  
     var result = parseInt(p)*(parseFloat(r)/100)*parseInt(y);
-    alert(result)
+    alert("Total:"+ result)
 }
         
